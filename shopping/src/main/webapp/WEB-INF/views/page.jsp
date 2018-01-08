@@ -22,6 +22,10 @@
 
 <title>Online Shopping - ${title}</title>
 
+<script>
+	window.menu='${title}';
+</script>
+
 <!-- Bootstrap core CSS -->
 <link href="${css}/bootstrap.min.css" rel="stylesheet">
 
@@ -55,9 +59,10 @@
 	<%@include file="./shared/footer.jsp"%>
 
 	<!-- Bootstrap core JavaScript -->
-	<script src="vendor/jquery/jquery.min.js"></script>
+	<script src="${js}/jquery-3.2.1.min.js"></script>
 	<script src="${js}/bootstrap.bundle.min.js"></script>
-
+	<script src="${js}/myapp.js"></script>
+	
 </body>
 
 </html>
